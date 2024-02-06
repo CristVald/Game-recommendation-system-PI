@@ -10,3 +10,6 @@ Este proyecto simula el rol integral de un MLOps Engineer, fusionando las funcio
   * GitHub como repositorio del proyecto
   * FastAPI como framework
   * Render
+## Etapas del proyecto 
+  ### transformación de datos:
+  
