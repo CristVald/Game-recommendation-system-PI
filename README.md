@@ -11,5 +11,7 @@ Este proyecto simula el rol integral de un MLOps Engineer, fusionando las funcio
   * FastAPI como framework
   * Render
 ## Etapas del proyecto 
-  ### transformación de datos:
-  
+  ### Transformación de datos:
+En esta etapa de ingenieria de datos se realizó un proceso de ETL, extracción, transformación y carga, donde se recibió 3 archivos JSON con información acerca de los videjuegos, los jugadores y las reseñas de estos. Dos de los conjuntos de datos presentaban estructuras anidadas, es decir, contenían columnas que almacenaban diccionarios o listas de diccionarios. Se implementaron diversas estrategias para convertir las claves de estos diccionarios en columnas separadas. Posteriormente, se llevaron a cabo acciones para gestionar los valores nulos en variables críticas para el proyecto. Además, se eliminaron columnas con un alto número de valores nulos o aquellas que no contribuían significativamente al proyecto, con el objetivo de mejorar el rendimiento de la API y considerando las restricciones de almacenamiento en el deploy.
+Los detalles del ETL se puede ver en 
+
