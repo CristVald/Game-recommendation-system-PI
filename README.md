@@ -59,5 +59,10 @@ Endpoint 7 - (recomendacion_usuario): Devuelve una lista con 5 juegos recomendad
 
 Cabe recalcar que los dos últimos Endpoint no pudieron agregarse a la API en el deployment en Render dado que el conjunto de datos que requiere para hacer la predicción excedía la capacidad de almacenamiento disponible en dicha plataforma. Sin embargo, si deseas ver el código completo y verlo de forma local, puedes hacerlo aquí: [Funciones_API](https://github.com/CristVald/Game-recommendation-system-PI/blob/main/functions_api.py) y [main.py](https://github.com/CristVald/Game-recommendation-system-PI/blob/main/main.py).
 
+### Deployment
+Para implementar la API, se optó por utilizar la plataforma Render, una solución en la nube integral diseñada para crear y ejecutar aplicaciones y sitios web. Esta plataforma facilita el despliegue(deployment) automático directamente desde GitHub.
+Como fue mencionado previamente, Render utiliza GitHub para el despliegue automático. Dado que la capacidad de almacenamiento del servicio gratuito es limitada, se creó un repositorio exclusivo para el despliegue, el cual puedes verlo aquí: [Proyecto Render](https://github.com/CristVald/Proyecto-Individual-render)
+
+
 
 
