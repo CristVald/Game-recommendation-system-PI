@@ -53,6 +53,11 @@ Endpoint 4 -  (best_developer_year):  El top 3 de desarrolladores con juegos MÁ
 
 Endpoint 5 - (developer_reviews_analysis): diccionario con el nombre del desarrollador como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor positivo o negativo.
 
-Para acceder a la funcionalidad completa de la API y explorar las recomendaciones de juegos, puedes visitar este enlace URL de la API. En este sitio, encontrarás las diversas funciones desarrolladas. ¡Disfruta explorando!.
+Endpoint 6 - (recomendacion_juego):  Devuelve una lista con 5 juegos recomendados similares al ingresado.
+
+Endpoint 7 - (recomendacion_usuario): Devuelve una lista con 5 juegos recomendados para dicho usuario teniendo en cuenta las similitudes entre los usuarios.
+
+Cabe recalcar que los dos últimos Endpoint no pudieron agregarse a la API en el deployment en Render dado que el conjunto de datos que requiere para hacer la predicción excedía la capacidad de almacenamiento disponible en dicha plataforma. Sin embargo, si deseas ver el código completo y verlo de forma local, puedes hacerlo aquí: [Funciones_API](https://github.com/CristVald/Game-recommendation-system-PI/blob/main/functions_api.py) y [main.py](https://github.com/CristVald/Game-recommendation-system-PI/blob/main/main.py).
+
 
 
