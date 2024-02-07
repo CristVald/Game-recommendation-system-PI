@@ -35,13 +35,13 @@ Se investigó sobre posibles relaciones entre variables, se identificó outliers
 
 ### Modelo de aprendizaje automático
 
-Se desarrollaron dos modelos de recomendación que generan listas de 5 juegos ya sea ingresando el nombre de un juego o el id de un usuario. En el primer modelo, basado en una relación ítem-ítem, se recomiendan juegos similares a uno dado, evaluando la similitud entre juegos. En el segundo modelo, que utiliza un filtro usuario-juego, se sugieren juegos basándose en la preferencia de usuarios similares al usuario activo.
+En este [Modelo de recomendación](https://github.com/CristVald/Game-recommendation-system-PI/blob/main/Jupyter%20Notebooks/Modelo_Recomendaci%C3%B3n.ipynb) se desarrollaron dos modelos de recomendación que generan listas de 5 juegos ya sea ingresando el nombre de un juego o el id de un usuario. En el primer modelo, basado en una relación ítem-ítem, se recomiendan juegos similares a uno dado, evaluando la similitud entre juegos. En el segundo modelo, que utiliza un filtro usuario-juego, se sugieren juegos basándose en la preferencia de usuarios similares al usuario activo.
 
 Ambos modelos emplean algoritmos basados en la memoria para abordar el filtrado colaborativo, utilizando toda la base de datos para encontrar similitudes entre usuarios o juegos y predecir las valoraciones del usuario activo. La métrica de similitud utilizada para medir la similitud entre juegos (item_similarity) y usuarios (user_similarity) es la similitud del coseno. Esta medida evalúa cuán similares son dos conjuntos de datos o elementos y se calcula utilizando el coseno del ángulo entre los vectores que representan esos datos o elementos. En el contexto de sistemas de recomendación, la similitud del coseno es comúnmente utilizada para evaluar la similitud entre juegos y usuarios.
 
 
 ### Desarrollo de la API: 
-se implementó una API con FastAPI y se deployó en Render, ésta proporciona cinco (5) consultas sobre información de videojuegos. Puede ver el detalle del código en los notebooks Funciones y Consultas.
+Se implementó una API con FastAPI y se deployó en Render, ésta proporciona cinco (5) consultas sobre información de videojuegos. Puede ver el detalle del código en los notebooks Funciones y Consultas.
 
 Endpoint 1 - (developer): Cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora. 
 
