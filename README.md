@@ -20,10 +20,10 @@ En esta etapa de ingenieria de datos se realizó un proceso de ETL, extracción,
 
  ### Feature engineering
 
-Una de las solicitudes para este proyecto consistió en aplicar un análisis de sentimiento a las reseñas de los usuarios. Para lograr esto, se introdujo una nueva columna llamada 'sentiment_analysis' en sustitución de la columna que originalmente contenía las reseñas. Esta nueva columna clasifica los sentimientos de los comentarios según la siguiente escala:
+[Feature Engineering](https://github.com/CristVald/Game-recommendation-system-PI/blob/main/Jupyter%20Notebooks/Feature_Engineering.ipynb) en esta etapa, una de las solicitudes para este proyecto consistió en aplicar un análisis de sentimiento a las reseñas de los usuarios. Para lograr esto, se introdujo una nueva columna llamada 'sentiment_analysis' en sustitución de la columna que originalmente contenía las reseñas. Esta nueva columna clasifica los sentimientos de los comentarios según la siguiente escala:
 
 * 0 para comentarios negativos,
 * 1 para comentarios neutrales o sin reseña, y
 * 2 para comentarios positivos.
 
-En el contexto de esta prueba de concepto, se implementó un análisis de sentimiento básico utilizando TextBlob, una biblioteca de procesamiento de lenguaje natural (NLP) en Python.
+En el contexto de esta prueba de concepto, se implementó un análisis de sentimiento básico utilizando TextBlob, una biblioteca de procesamiento de lenguaje natural (NLP) en Python. 
