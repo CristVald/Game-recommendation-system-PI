@@ -16,4 +16,14 @@ En esta etapa de ingenieria de datos se realizó un proceso de ETL, extracción,
 
  * [Steam Games ETL](https://github.com/CristVald/Game-recommendation-system-PI/blob/main/Jupyter%20Notebooks/1_steam_games_ETL.ipynb) en este archivo trabajamos la información sobre los juegos disponibles en la plataforma Steam, también incluye datos como géneros, etiquetas, especificaciones, desarrolladores, año de lanzamiento, precio y otros atributos relevantes de cada juego.
  * [User Items ETL](https://github.com/CristVald/Game-recommendation-system-PI/blob/main/Jupyter%20Notebooks/1_user_items_ETL.ipynb) en este archivo realizamos el proceso de ETL sobre los ítems relacionados con usuarios australiano. También debimos realizar un proceso de desanidado porque encontramos listas como datos. 
- * [User Reviews ETL](https://github.com/CristVald/Game-recommendation-system-PI/blob/main/Jupyter%20Notebooks/1_user_reviews_ETL.ipynb) en este archivo realizamos el proceso de ETL sobre las reseñas de juegos específicamente realizadas por usuarios australianos.Aquí también observamos la presencia de listas las cuales tuvimos que desanidar. 
+ * [User Reviews ETL](https://github.com/CristVald/Game-recommendation-system-PI/blob/main/Jupyter%20Notebooks/1_user_reviews_ETL.ipynb) en este archivo realizamos el proceso de ETL sobre las reseñas de juegos específicamente realizadas por usuarios australianos.Aquí también observamos la presencia de listas las cuales tuvimos que desanidar.
+
+ ### Feature engineering
+
+Una de las solicitudes para este proyecto consistió en aplicar un análisis de sentimiento a las reseñas de los usuarios. Para lograr esto, se introdujo una nueva columna llamada 'sentiment_analysis' en sustitución de la columna que originalmente contenía las reseñas. Esta nueva columna clasifica los sentimientos de los comentarios según la siguiente escala:
+
+* 0 para comentarios negativos,
+* 1 para comentarios neutrales o sin reseña, y
+* 2 para comentarios positivos.
+
+En el contexto de esta prueba de concepto, se implementó un análisis de sentimiento básico utilizando TextBlob, una biblioteca de procesamiento de lenguaje natural (NLP) en Python.
